@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="fv-hxzFavTitle fv-hxzFavDesc">
+  <title id="fv-hxzFavTitle">河小智网站图标</title>
+  <desc id="fv-hxzFavDesc">简化版河小智标识：蓝青渐变圆角方形底，白色 AI 机器人面带暖金天线，适合 16 至 32 像素的小尺寸显示。</desc>
+  <defs>
+    <linearGradient id="fv-favBadge" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2F6BFF"/>
+      <stop offset="0.55" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#0F9E93"/>
+    </linearGradient>
+    <radialGradient id="fv-favLight" cx="18" cy="13" r="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fv-favHead" x1="16" y1="23" x2="48" y2="49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DCEAFF"/>
+    </linearGradient>
+    <linearGradient id="fv-favEye" x1="22" y1="30" x2="42" y2="39" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#0F2A5C"/>
+    </linearGradient>
+    <radialGradient id="fv-favGold" cx="0.38" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#FFE9B0"/>
+      <stop offset="1" stop-color="#F5B942"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="18" fill="url(#fv-favBadge)"/>
+  <rect width="64" height="64" rx="18" fill="url(#fv-favLight)"/>
+  <rect x="1" y="1" width="62" height="62" rx="17" fill="none" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="1.5"/>
+
+  <g>
+    <line x1="32" y1="23.5" x2="32" y2="17.5" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+    <circle cx="32" cy="13.8" r="4.2" fill="url(#fv-favGold)"/>
+    <rect x="16" y="23.5" width="32" height="25" rx="9.5" fill="url(#fv-favHead)"/>
+    <circle cx="25.5" cy="34.5" r="3.4" fill="url(#fv-favEye)"/>
+    <circle cx="38.5" cy="34.5" r="3.4" fill="url(#fv-favEye)"/>
+    <circle cx="24.6" cy="33.4" r="1.1" fill="#FFFFFF" fill-opacity="0.95"/>
+    <circle cx="37.6" cy="33.4" r="1.1" fill="#FFFFFF" fill-opacity="0.95"/>
+    <path d="M27 41.5 Q32 45.5 37 41.5" fill="none" stroke="#14B8A6" stroke-width="2.8" stroke-linecap="round"/>
+  </g>
+</svg>

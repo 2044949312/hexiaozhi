@@ -1,0 +1,32 @@
+# 环境变量与密钥（务必不要提交）
+.env
+.env.*
+!.env.example
+
+# 运行时生成的账号库与用户数据
+.data/
+
+# 项目内置依赖（约 405MB，由 start.ps1 / requirements.txt 自动安装）
+.deps/
+
+# 临时文件、调试截图与备份
+.tmp/
+*.log
+tools/_edge_profile*/
+tools/_tmp_html_*.html
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# 个人工作笔记
+.workbuddy/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/

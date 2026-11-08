@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="ru-hxzRunTitle ru-hxzRunDesc">
+  <title id="ru-hxzRunTitle">活动封面：校园夜跑</title>
+  <desc id="ru-hxzRunDesc">深海军蓝的夜空点缀星点与暖金月亮，远处校园楼群亮着窗灯，荧光绿跑道弧线自下而上延伸，右侧奔跑者剪影带荧光轮廓光与速度线，底部暗色渐变用于叠加白色文字。</desc>
+  <defs>
+    <linearGradient id="ru-ruBg" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050F24"/>
+      <stop offset="0.5" stop-color="#0A2240"/>
+      <stop offset="1" stop-color="#0C3A44"/>
+    </linearGradient>
+    <radialGradient id="ru-ruGlowGreen" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5EF2A0" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#5EF2A0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ru-ruGlowGold" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5B942" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#F5B942" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ru-ruGlowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ru-ruLamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFE9B0" stop-opacity="0.9"/>
+      <stop offset="0.35" stop-color="#F5B942" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#F5B942" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ru-ruScrim" x1="0" y1="225" x2="0" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020A16" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#020A16" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#020A16" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="ru-ruVignette" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0.5" stop-color="#01060F" stop-opacity="0"/>
+      <stop offset="1" stop-color="#01060F" stop-opacity="0.45"/>
+    </radialGradient>
+    <linearGradient id="ru-ruMoon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF8E2"/>
+      <stop offset="1" stop-color="#F5C25B"/>
+    </linearGradient>
+    <linearGradient id="ru-ruBuilding" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#06172C"/>
+      <stop offset="1" stop-color="#041222"/>
+    </linearGradient>
+    <linearGradient id="ru-ruTrack" x1="0" y1="340" x2="0" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#082033"/>
+      <stop offset="1" stop-color="#03101D"/>
+    </linearGradient>
+    <filter id="ru-ruNeonBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4.5"/>
+    </filter>
+    <mask id="ru-ruMoonMask">
+      <rect width="800" height="450" fill="#000000"/>
+      <circle cx="680" cy="74" r="34" fill="#FFFFFF"/>
+      <circle cx="695" cy="65" r="27" fill="#000000"/>
+    </mask>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#ru-ruBg)"/>
+  <circle cx="400" cy="330" r="360" fill="url(#ru-ruGlowCyan)" opacity="0.55"/>
+  <circle cx="480" cy="300" r="200" fill="url(#ru-ruGlowGreen)" opacity="0.42"/>
+  <circle cx="680" cy="74" r="110" fill="url(#ru-ruGlowGold)" opacity="0.45"/>
+  <circle cx="92" cy="80" r="120" fill="url(#ru-ruGlowGold)" opacity="0.28"/>
+
+  <!-- 星空 -->
+  <g fill="#DCEFFF">
+    <circle cx="60" cy="52" r="1.8" opacity="0.7"/>
+    <circle cx="128" cy="118" r="1.4" opacity="0.5"/>
+    <circle cx="222" cy="60" r="2" opacity="0.65"/>
+    <circle cx="286" cy="132" r="1.3" opacity="0.45"/>
+    <circle cx="356" cy="54" r="1.6" opacity="0.55"/>
+    <circle cx="432" cy="112" r="1.2" opacity="0.4"/>
+    <circle cx="486" cy="46" r="2.1" opacity="0.6"/>
+    <circle cx="556" cy="94" r="1.4" opacity="0.45"/>
+    <circle cx="620" cy="38" r="1.7" opacity="0.55"/>
+    <circle cx="744" cy="146" r="1.5" opacity="0.5"/>
+    <circle cx="782" cy="60" r="1.8" opacity="0.55"/>
+    <circle cx="330" cy="190" r="1.2" opacity="0.3"/>
+    <circle cx="700" cy="212" r="1.4" opacity="0.3"/>
+    <circle cx="160" cy="212" r="1.3" opacity="0.3"/>
+  </g>
+  <path d="M0 -6 C0.5 -1.8 1.8 -0.5 6 0 C1.8 0.5 0.5 1.8 0 6 C-0.5 1.8 -1.8 0.5 -6 0 C-1.8 -0.5 -0.5 -1.8 0 -6 Z" fill="#EAF6FF" transform="translate(446 118) scale(1.1)"/>
+  <path d="M0 -5 C0.4 -1.5 1.5 -0.4 5 0 C1.5 0.4 0.4 1.5 0 5 C-0.4 1.5 -1.5 0.4 -5 0 C-1.5 -0.4 -0.4 -1.5 0 -5 Z" fill="#F5B942" transform="translate(196 168) scale(0.9)"/>
+
+  <!-- 月亮 -->
+  <circle cx="680" cy="74" r="34" fill="url(#ru-ruMoon)" mask="url(#ru-ruMoonMask)"/>
+  <circle cx="680" cy="74" r="50" fill="none" stroke="#F5B942" stroke-opacity="0.18" stroke-width="2"/>
+
+  <!-- 看台灯光 -->
+  <circle cx="92" cy="80" r="46" fill="url(#ru-ruLamp)" opacity="0.8"/>
+  <circle cx="92" cy="80" r="5" fill="#FFF3D2"/>
+  <circle cx="756" cy="122" r="34" fill="url(#ru-ruLamp)" opacity="0.55"/>
+  <circle cx="756" cy="122" r="3.6" fill="#FFF3D2"/>
+
+  <!-- 远处校园楼群 -->
+  <g fill="url(#ru-ruBuilding)">
+    <rect x="18" y="238" width="62" height="96" rx="4"/>
+    <rect x="86" y="268" width="42" height="66" rx="3"/>
+    <rect x="132" y="214" width="74" height="120" rx="5"/>
+    <rect x="212" y="252" width="50" height="82" rx="4"/>
+    <rect x="266" y="278" width="36" height="56" rx="3"/>
+    <rect x="556" y="262" width="48" height="72" rx="4"/>
+    <rect x="610" y="228" width="86" height="106" rx="5"/>
+    <rect x="702" y="256" width="54" height="78" rx="4"/>
+    <rect x="760" y="238" width="40" height="96" rx="3"/>
+  </g>
+  <g fill="#F5B942">
+    <rect x="140" y="232" width="4" height="5" opacity="0.75"/><rect x="154" y="232" width="4" height="5" opacity="0.5"/>
+    <rect x="140" y="250" width="4" height="5" opacity="0.45"/><rect x="168" y="250" width="4" height="5" opacity="0.7"/>
+    <rect x="154" y="268" width="4" height="5" opacity="0.6"/><rect x="182" y="286" width="4" height="5" opacity="0.4"/>
+    <rect x="32" y="256" width="4" height="5" opacity="0.6"/><rect x="52" y="274" width="4" height="5" opacity="0.45"/>
+    <rect x="628" y="246" width="4" height="5" opacity="0.65"/><rect x="648" y="246" width="4" height="5" opacity="0.4"/>
+    <rect x="628" y="264" width="4" height="5" opacity="0.5"/><rect x="666" y="282" width="4" height="5" opacity="0.6"/>
+    <rect x="716" y="272" width="4" height="5" opacity="0.55"/><rect x="734" y="290" width="4" height="5" opacity="0.4"/>
+    <rect x="772" y="256" width="4" height="5" opacity="0.5"/>
+  </g>
+
+  <!-- 跑道 -->
+  <path d="M0 450 L0 340 C220 310 580 310 800 340 L800 450 Z" fill="url(#ru-ruTrack)"/>
+  <ellipse cx="480" cy="330" rx="440" ry="52" fill="url(#ru-ruGlowGreen)" opacity="0.35"/>
+  <g fill="none" stroke="#5EF2A0">
+    <g opacity="0.3" filter="url(#ru-ruNeonBlur)" stroke-width="15">
+      <path d="M0 352 C220 322 580 322 800 352"/>
+      <path d="M0 386 C220 354 580 354 800 386"/>
+      <path d="M0 422 C220 388 580 388 800 422"/>
+      <path d="M0 450 C230 414 570 414 800 450"/>
+    </g>
+    <g stroke-width="3.2" opacity="0.55">
+      <path d="M0 352 C220 322 580 322 800 352"/>
+      <path d="M0 386 C220 354 580 354 800 386"/>
+      <path d="M0 422 C220 388 580 388 800 422"/>
+    </g>
+    <path d="M0 386 C220 354 580 354 800 386" stroke-width="4" opacity="0.5" stroke="#B6FFCF"/>
+    <path d="M0 450 C230 414 570 414 800 450" stroke-width="6" opacity="1" stroke="#B6FFCF"/>
+    <g stroke-width="2" opacity="0.22">
+      <path d="M60 450 C140 424 230 396 320 374"/>
+      <path d="M740 450 C660 424 570 396 480 374"/>
+    </g>
+  </g>
+
+  <!-- 奔跑者 -->
+  <ellipse cx="480" cy="358" rx="150" ry="26" fill="url(#ru-ruGlowGreen)" opacity="0.3"/>
+  <circle cx="490" cy="262" r="190" fill="url(#ru-ruGlowGreen)" opacity="0.55"/>
+  <circle cx="500" cy="250" r="90" fill="url(#ru-ruGlowGreen)" opacity="0.3"/>
+  <ellipse cx="498" cy="362" rx="86" ry="12" fill="#020C18" opacity="0.5"/>
+  <g fill="#04101F" stroke="#04101F" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M500 250 L460 298 L428 342" stroke-width="26" fill="none"/>
+    <path d="M428 342 L400 350" stroke-width="13" fill="none"/>
+    <path d="M522 246 L574 268" stroke-width="27" fill="none"/>
+    <path d="M574 268 L556 314" stroke-width="22" fill="none"/>
+    <path d="M556 314 L582 322" stroke-width="13" fill="none"/>
+    <path d="M508 166 L466 206 L438 226" stroke-width="18" fill="none"/>
+    <path d="M540 166 L574 202 L598 178" stroke-width="18" fill="none"/>
+    <path d="M506 150 C518 142 536 148 542 162 L528 244 C518 252 500 252 492 244 L500 166 C500 156 502 152 506 150 Z" stroke="none"/>
+    <rect x="516" y="138" width="24" height="22" rx="9" stroke="none"/>
+    <circle cx="532" cy="120" r="21" stroke="none"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M512 110 A21 21 0 0 1 550 114" stroke="#7CF29B" stroke-opacity="1" stroke-width="3.5"/>
+    <path d="M540 168 C537 192 532 218 528 240" stroke="#7CF29B" stroke-opacity="0.65" stroke-width="3"/>
+    <path d="M546 258 L564 267" stroke="#7CF29B" stroke-opacity="0.5" stroke-width="3"/>
+    <path d="M560 316 L580 322" stroke="#7CF29B" stroke-opacity="0.7" stroke-width="2.5"/>
+  </g>
+
+  <rect y="240" width="800" height="210" fill="url(#ru-ruScrim)"/>
+  <rect width="800" height="450" fill="url(#ru-ruVignette)"/>
+</svg>

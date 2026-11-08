@@ -1,0 +1,24 @@
+[global]
+developmentMode = false
+
+[theme]
+base = "light"
+primaryColor = "#1D4ED8"
+backgroundColor = "#F4F7FB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#0F1B33"
+font = "sans serif"
+
+[server]
+port = 8501
+headless = true
+runOnSave = true
+fileWatcherType = "auto"
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "none"

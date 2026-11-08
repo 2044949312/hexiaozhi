@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="le-hxzLectureTitle le-hxzLectureDesc">
+  <title id="le-hxzLectureTitle">活动封面：名师公开课 · AI 前沿</title>
+  <desc id="le-hxzLectureDesc">青绿到暖金的深邃背景，右下角摊开的书本向上散发金色光晕，书页上方悬浮由光点组成的神经网络与环绕轨迹，画面留出干净暗部供叠加白色文字。</desc>
+  <defs>
+    <linearGradient id="le-leBg" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#041E1C"/>
+      <stop offset="0.5" stop-color="#0B4A42"/>
+      <stop offset="0.82" stop-color="#4F5A2C"/>
+      <stop offset="1" stop-color="#8A5A22"/>
+    </linearGradient>
+    <radialGradient id="le-leGlowGold" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5B942" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#F5B942" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="le-leGlowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="le-leNodeGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5EEAD4" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="le-leNodeGold" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFE9B0" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#F5B942" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="le-leScrim" x1="0" y1="200" x2="0" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#02100F" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#02100F" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#02100F" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="le-leVignette" cx="0.52" cy="0.44" r="0.62">
+      <stop offset="0.5" stop-color="#010B0A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#010B0A" stop-opacity="0.45"/>
+    </radialGradient>
+    <linearGradient id="le-lePage" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF6"/>
+      <stop offset="0.6" stop-color="#F6EFD9"/>
+      <stop offset="1" stop-color="#D9CBA6"/>
+    </linearGradient>
+    <linearGradient id="le-lePageRight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FDF8EA"/>
+      <stop offset="0.55" stop-color="#F3EAD2"/>
+      <stop offset="1" stop-color="#CDBD95"/>
+    </linearGradient>
+    <linearGradient id="le-leCover" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C3B35"/>
+      <stop offset="1" stop-color="#06211E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#le-leBg)"/>
+  <g transform="translate(46 -22)">
+  <circle cx="600" cy="330" r="320" fill="url(#le-leGlowGold)" opacity="0.95"/>
+  <circle cx="700" cy="130" r="230" fill="url(#le-leGlowGold)" opacity="0.5"/>
+  <circle cx="150" cy="240" r="230" fill="url(#le-leGlowCyan)" opacity="0.6"/>
+
+  <!-- 稀疏星点与光尘 -->
+  <g fill="#D7F5EC">
+    <circle cx="70" cy="82" r="1.8" opacity="0.45"/>
+    <circle cx="196" cy="140" r="1.5" opacity="0.35"/>
+    <circle cx="120" cy="316" r="1.6" opacity="0.3"/>
+    <circle cx="318" cy="78" r="1.6" opacity="0.35"/>
+    <circle cx="742" cy="240" r="2" opacity="0.4"/>
+    <circle cx="688" cy="372" r="1.8" opacity="0.35"/>
+    <circle cx="470" cy="86" r="1.4" opacity="0.3"/>
+    <circle cx="360" cy="336" r="1.5" opacity="0.25"/>
+  </g>
+  <g fill="#F5B942">
+    <circle cx="248" cy="212" r="7" fill-opacity="0.5"/>
+    <circle cx="248" cy="212" r="2" opacity="0.8"/>
+    <circle cx="398" cy="120" r="6" fill-opacity="0.4"/>
+    <circle cx="398" cy="120" r="1.8" opacity="0.7"/>
+    <circle cx="736" cy="330" r="8" fill-opacity="0.35"/>
+    <circle cx="736" cy="330" r="2.2" opacity="0.7"/>
+  </g>
+
+  <!-- 书页上升的光线 -->
+  <g fill="#F5B942">
+    <polygon points="560,300 520,60 552,60" opacity="0.06"/>
+    <polygon points="560,300 596,58 628,58" opacity="0.07"/>
+    <polygon points="560,300 660,84 684,96" opacity="0.05"/>
+    <polygon points="560,300 470,96 496,76" opacity="0.05"/>
+  </g>
+
+  <!-- 神经网络 -->
+  <g fill="none" stroke="#5EEAD4" stroke-opacity="0.35" stroke-width="1.6">
+    <path d="M512 176 L548 140 L600 132 L640 172 L612 214 L560 224 L512 176"/>
+    <path d="M548 140 L560 224"/>
+    <path d="M600 132 L612 214"/>
+    <path d="M640 172 L676 200"/>
+    <path d="M512 176 L484 214"/>
+    <path d="M612 214 L648 244"/>
+  </g>
+  <g fill="none" stroke="#F5B942" stroke-opacity="0.3" stroke-width="1.4">
+    <path d="M560 224 L560 268"/>
+    <path d="M600 132 L604 96"/>
+  </g>
+  <g>
+    <circle cx="512" cy="176" r="17" fill="url(#le-leNodeGlow)"/><circle cx="512" cy="176" r="5" fill="#A7F3D0"/>
+    <circle cx="548" cy="140" r="19" fill="url(#le-leNodeGlow)"/><circle cx="548" cy="140" r="5.5" fill="#A7F3D0"/>
+    <circle cx="600" cy="132" r="20" fill="url(#le-leNodeGold)"/><circle cx="600" cy="132" r="6" fill="#FFE9B0"/>
+    <circle cx="640" cy="172" r="17" fill="url(#le-leNodeGlow)"/><circle cx="640" cy="172" r="5" fill="#5EEAD4"/>
+    <circle cx="612" cy="214" r="17" fill="url(#le-leNodeGlow)"/><circle cx="612" cy="214" r="5" fill="#A7F3D0"/>
+    <circle cx="560" cy="224" r="18" fill="url(#le-leNodeGlow)"/><circle cx="560" cy="224" r="5.5" fill="#5EEAD4"/>
+    <circle cx="484" cy="214" r="14" fill="url(#le-leNodeGlow)"/><circle cx="484" cy="214" r="4" fill="#A7F3D0"/>
+    <circle cx="676" cy="200" r="14" fill="url(#le-leNodeGold)"/><circle cx="676" cy="200" r="4" fill="#FFE9B0"/>
+    <circle cx="648" cy="244" r="13" fill="url(#le-leNodeGlow)"/><circle cx="648" cy="244" r="4" fill="#5EEAD4"/>
+    <circle cx="560" cy="268" r="12" fill="url(#le-leNodeGlow)"/><circle cx="560" cy="268" r="3.5" fill="#A7F3D0"/>
+    <circle cx="604" cy="96" r="12" fill="url(#le-leNodeGold)"/><circle cx="604" cy="96" r="3.5" fill="#FFE9B0"/>
+  </g>
+
+  <!-- 环绕轨迹 -->
+  <g fill="none" stroke="#F5B942">
+    <ellipse cx="572" cy="182" rx="150" ry="62" stroke-opacity="0.22" stroke-width="1.6" transform="rotate(-12 572 182)"/>
+    <ellipse cx="572" cy="182" rx="184" ry="80" stroke-opacity="0.12" stroke-width="1.6" transform="rotate(-12 572 182)"/>
+  </g>
+
+  <!-- 摊开的书 -->
+  <ellipse cx="560" cy="330" rx="130" ry="46" fill="url(#le-leGlowGold)" opacity="0.6"/>
+  <g>
+    <path d="M560 382 C500 350 450 340 408 344 L408 336 C452 332 506 342 560 372 C614 342 668 332 712 336 L712 344 C670 340 620 350 560 382 Z" fill="url(#le-leCover)"/>
+    <path d="M560 372 C505 342 455 332 415 336 L415 288 C460 284 510 294 560 322 Z" fill="url(#le-lePage)"/>
+    <path d="M560 372 C615 342 665 332 705 336 L705 288 C660 284 610 294 560 322 Z" fill="url(#le-lePageRight)"/>
+    <path d="M560 372 L560 322" stroke="#B7A77C" stroke-opacity="0.5" stroke-width="2"/>
+    <g fill="none" stroke="#8C7C52" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round">
+      <path d="M440 326 C480 320 522 330 548 344"/>
+      <path d="M440 306 C480 300 520 310 548 326"/>
+      <path d="M680 326 C640 320 598 330 572 344"/>
+      <path d="M680 306 C640 300 600 310 572 326"/>
+    </g>
+    <path d="M560 322 L560 370" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>
+    <path d="M415 336 C455 332 505 342 560 372" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
+  </g>
+
+  <!-- 书页上方的光粒 -->
+  <g fill="#FFE9B0">
+    <circle cx="470" cy="292" r="2.6" opacity="0.7"/>
+    <circle cx="520" cy="276" r="1.8" opacity="0.5"/>
+    <circle cx="612" cy="284" r="2.4" opacity="0.6"/>
+    <circle cx="648" cy="300" r="1.8" opacity="0.45"/>
+    <circle cx="560" cy="252" r="2.2" opacity="0.55"/>
+    <circle cx="430" cy="270" r="1.6" opacity="0.4"/>
+    <circle cx="680" cy="264" r="1.8" opacity="0.4"/>
+  </g>
+
+  </g>
+
+  <rect y="200" width="800" height="250" fill="url(#le-leScrim)"/>
+  <rect width="800" height="450" fill="url(#le-leVignette)"/>
+</svg>

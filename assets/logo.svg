@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="lg-hxzLogoTitle lg-hxzLogoDesc">
+  <title id="lg-hxzLogoTitle">河小智品牌标识</title>
+  <desc id="lg-hxzLogoDesc">圆角方形蓝青渐变徽标，中央为白色 AI 机器人面部符号，右上角点缀暖金色星芒。</desc>
+  <defs>
+    <linearGradient id="lg-badgeGrad" x1="0" y1="0" x2="96" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2F6BFF"/>
+      <stop offset="0.55" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#0F9E93"/>
+    </linearGradient>
+    <radialGradient id="lg-badgeLight" cx="28" cy="20" r="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lg-badgeTeal" cx="84" cy="88" r="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lg-headGrad" x1="24" y1="34" x2="72" y2="71" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DDEBFF"/>
+    </linearGradient>
+    <linearGradient id="lg-eyeGrad" x1="34" y1="45" x2="62" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#0F2A5C"/>
+    </linearGradient>
+    <linearGradient id="lg-smileGrad" x1="40" y1="58" x2="56" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <radialGradient id="lg-starGrad" cx="0.38" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#FFE9B0"/>
+      <stop offset="1" stop-color="#F5B942"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="96" height="96" rx="27" fill="url(#lg-badgeGrad)"/>
+  <rect width="96" height="96" rx="27" fill="url(#lg-badgeLight)"/>
+  <rect width="96" height="96" rx="27" fill="url(#lg-badgeTeal)"/>
+  <rect x="1.5" y="1.5" width="93" height="93" rx="25.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="2"/>
+
+  <g>
+    <line x1="48" y1="33.5" x2="48" y2="25.5" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="48" cy="20.5" r="5.5" fill="url(#lg-starGrad)"/>
+    <circle cx="46.4" cy="19" r="1.5" fill="#FFFFFF" fill-opacity="0.85"/>
+    <rect x="24" y="34" width="48" height="36.5" rx="14" fill="url(#lg-headGrad)"/>
+    <circle cx="38.5" cy="50" r="4.6" fill="url(#lg-eyeGrad)"/>
+    <circle cx="57.5" cy="50" r="4.6" fill="url(#lg-eyeGrad)"/>
+    <circle cx="37.2" cy="48.6" r="1.5" fill="#FFFFFF" fill-opacity="0.95"/>
+    <circle cx="56.2" cy="48.6" r="1.5" fill="#FFFFFF" fill-opacity="0.95"/>
+    <path d="M40.5 58.5 Q48 64.5 55.5 58.5" fill="none" stroke="url(#lg-smileGrad)" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M0 -8 C0.6 -2.9 2.9 -0.6 8 0 C2.9 0.6 0.6 2.9 0 8 C-0.6 2.9 -2.9 0.6 -8 0 C-2.9 -0.6 -0.6 -2.9 0 -8 Z" transform="translate(77 21) scale(0.78)" fill="url(#lg-starGrad)"/>
+  </g>
+</svg>

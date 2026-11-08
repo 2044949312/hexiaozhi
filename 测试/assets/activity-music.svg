@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="mu-hxzMusicTitle mu-hxzMusicDesc">
+  <title id="mu-hxzMusicTitle">活动封面：校园音乐节</title>
+  <desc id="mu-hxzMusicDesc">暮紫到暖橙的黄昏舞台，顶部灯架射出柔和的暖金、玫红与青色光束，右侧漂浮金色音符，底部为举起手臂的观众剪影与手机灯点，深色底部渐变便于叠加白色文字。</desc>
+  <defs>
+    <linearGradient id="mu-muBg" x1="0" y1="0" x2="0" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#16082E"/>
+      <stop offset="0.42" stop-color="#3B1456"/>
+      <stop offset="0.72" stop-color="#7A2E63"/>
+      <stop offset="1" stop-color="#C25F45"/>
+    </linearGradient>
+    <radialGradient id="mu-muGlowWarm" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5B942" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#F5B942" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mu-muGlowPink" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F472B6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mu-muBokeh" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.4" stop-color="#FFE9B0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFE9B0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mu-muScrim" x1="0" y1="210" x2="0" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A0416" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#0A0416" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#0A0416" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="mu-muVignette" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0.5" stop-color="#070212" stop-opacity="0"/>
+      <stop offset="1" stop-color="#070212" stop-opacity="0.45"/>
+    </radialGradient>
+    <linearGradient id="mu-muNoteGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE9B0"/>
+      <stop offset="1" stop-color="#F5B942"/>
+    </linearGradient>
+    <filter id="mu-muBeamBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#mu-muBg)"/>
+  <circle cx="400" cy="330" r="300" fill="url(#mu-muGlowPink)" opacity="0.9"/>
+  <circle cx="400" cy="410" r="240" fill="url(#mu-muGlowWarm)" opacity="0.8"/>
+  <circle cx="120" cy="180" r="150" fill="url(#mu-muGlowPink)" opacity="0.5"/>
+
+  <!-- 舞台光束 -->
+  <g filter="url(#mu-muBeamBlur)">
+    <polygon points="368,46 392,46 300,450 214,450" fill="#F5B942" opacity="0.14"/>
+    <polygon points="452,46 476,46 560,450 470,450" fill="#22D3EE" opacity="0.1"/>
+    <polygon points="330,46 352,46 236,450 158,450" fill="#F472B6" opacity="0.12"/>
+    <polygon points="500,46 524,46 668,450 582,450" fill="#F5B942" opacity="0.1"/>
+    <polygon points="410,46 436,46 414,450 342,450" fill="#FFE9B0" opacity="0.1"/>
+  </g>
+
+  <!-- 灯架 -->
+  <rect x="96" y="32" width="608" height="10" rx="5" fill="#14082A" opacity="0.9"/>
+  <g stroke="#2A1247" stroke-width="2" opacity="0.8">
+    <path d="M180 0 V32"/><path d="M300 0 V32"/><path d="M420 0 V32"/><path d="M540 0 V32"/><path d="M660 0 V32"/>
+  </g>
+  <g>
+    <circle cx="150" cy="44" r="16" fill="url(#mu-muGlowWarm)"/>
+    <circle cx="250" cy="44" r="16" fill="url(#mu-muGlowWarm)"/>
+    <circle cx="350" cy="44" r="16" fill="url(#mu-muGlowWarm)"/>
+    <circle cx="450" cy="44" r="16" fill="url(#mu-muGlowWarm)"/>
+    <circle cx="550" cy="44" r="16" fill="url(#mu-muGlowWarm)"/>
+    <circle cx="650" cy="44" r="16" fill="url(#mu-muGlowWarm)"/>
+    <circle cx="150" cy="44" r="4.5" fill="#FFE9B0"/>
+    <circle cx="250" cy="44" r="4.5" fill="#FFE9B0"/>
+    <circle cx="350" cy="44" r="4.5" fill="#FFE9B0"/>
+    <circle cx="450" cy="44" r="4.5" fill="#FFE9B0"/>
+    <circle cx="550" cy="44" r="4.5" fill="#FFE9B0"/>
+    <circle cx="650" cy="44" r="4.5" fill="#FFE9B0"/>
+  </g>
+
+  <!-- 光斑 -->
+  <g>
+    <circle cx="88" cy="120" r="26" fill="url(#mu-muBokeh)" opacity="0.6"/>
+    <circle cx="150" cy="88" r="14" fill="url(#mu-muBokeh)" opacity="0.5"/>
+    <circle cx="262" cy="120" r="10" fill="url(#mu-muBokeh)" opacity="0.35"/>
+    <circle cx="734" cy="112" r="22" fill="url(#mu-muBokeh)" opacity="0.45"/>
+    <circle cx="688" cy="86" r="11" fill="url(#mu-muBokeh)" opacity="0.3"/>
+    <circle cx="580" cy="112" r="8" fill="url(#mu-muBokeh)" opacity="0.3"/>
+    <circle cx="330" cy="168" r="7" fill="url(#mu-muBokeh)" opacity="0.25"/>
+  </g>
+
+  <!-- 舞台边缘光带 -->
+  <ellipse cx="400" cy="372" rx="330" ry="26" fill="url(#mu-muGlowWarm)" opacity="0.3"/>
+  <path d="M96 372 H704" stroke="#F5B942" stroke-opacity="0.28" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 音符 -->
+  <g transform="translate(636 150) rotate(-12)">
+    <path d="M11 -4 L11 -64" fill="none" stroke="url(#mu-muNoteGold)" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="1" cy="0" rx="14" ry="10" fill="url(#mu-muNoteGold)" transform="rotate(-18 1 0)"/>
+    <path d="M11 -64 C30 -58 39 -44 34 -28 C28 -40 21 -46 11 -46 Z" fill="url(#mu-muNoteGold)"/>
+  </g>
+  <g transform="translate(704 244) rotate(10) scale(0.82)">
+    <path d="M11 -4 L11 -64" fill="none" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="1" cy="0" rx="14" ry="10" fill="#FFFFFF" opacity="0.7" transform="rotate(-18 1 0)"/>
+    <path d="M11 -64 C30 -58 39 -44 34 -28 C28 -40 21 -46 11 -46 Z" fill="#FFFFFF" opacity="0.7"/>
+  </g>
+  <g transform="translate(566 252) rotate(-6) scale(0.62)">
+    <path d="M11 -4 L11 -64" fill="none" stroke="#FFE9B0" stroke-opacity="0.6" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="1" cy="0" rx="14" ry="10" fill="#FFE9B0" opacity="0.6" transform="rotate(-18 1 0)"/>
+    <path d="M11 -64 C30 -58 39 -44 34 -28 C28 -40 21 -46 11 -46 Z" fill="#FFE9B0" opacity="0.6"/>
+  </g>
+
+  <!-- 观众剪影 -->
+  <g>
+    <rect y="398" width="800" height="52" fill="#1D0E38"/>
+    <g fill="#1D0E38">
+      <circle cx="18" cy="388" r="16"/><circle cx="62" cy="394" r="15"/><circle cx="106" cy="386" r="17"/>
+      <circle cx="150" cy="392" r="15"/><circle cx="194" cy="384" r="16"/><circle cx="238" cy="392" r="15"/>
+      <circle cx="282" cy="386" r="16"/><circle cx="326" cy="394" r="14"/><circle cx="370" cy="384" r="16"/>
+      <circle cx="414" cy="392" r="15"/><circle cx="458" cy="386" r="16"/><circle cx="502" cy="394" r="14"/>
+      <circle cx="546" cy="386" r="16"/><circle cx="590" cy="392" r="15"/><circle cx="634" cy="384" r="16"/>
+      <circle cx="678" cy="392" r="15"/><circle cx="722" cy="386" r="16"/><circle cx="766" cy="394" r="15"/>
+    </g>
+  </g>
+  <g fill="#120722">
+    <rect y="428" width="800" height="22"/>
+    <circle cx="42" cy="416" r="20"/><circle cx="100" cy="412" r="18"/><circle cx="158" cy="420" r="21"/>
+    <circle cx="216" cy="414" r="19"/><circle cx="274" cy="420" r="20"/><circle cx="332" cy="413" r="18"/>
+    <circle cx="390" cy="420" r="21"/><circle cx="448" cy="414" r="19"/><circle cx="506" cy="420" r="20"/>
+    <circle cx="564" cy="413" r="18"/><circle cx="622" cy="420" r="21"/><circle cx="680" cy="414" r="19"/>
+    <circle cx="738" cy="420" r="20"/><circle cx="788" cy="414" r="18"/>
+  </g>
+
+  <!-- 举起的手臂与手机灯 -->
+  <g stroke="#1D0E38" stroke-width="10" stroke-linecap="round" fill="none">
+    <path d="M214 398 L204 348"/>
+    <path d="M446 400 L458 344"/>
+    <path d="M640 400 L630 352"/>
+    <path d="M704 398 L716 356"/>
+  </g>
+  <g fill="#1D0E38">
+    <circle cx="204" cy="348" r="7"/><circle cx="458" cy="344" r="7"/>
+    <circle cx="630" cy="352" r="6.5"/><circle cx="716" cy="356" r="6.5"/>
+  </g>
+  <g stroke="#120722" stroke-width="11" stroke-linecap="round" fill="none">
+    <path d="M118 424 L108 368"/>
+    <path d="M354 426 L344 362"/>
+    <path d="M556 426 L566 366"/>
+    <path d="M764 424 L776 370"/>
+  </g>
+  <g fill="#120722">
+    <circle cx="108" cy="368" r="7.5"/><circle cx="344" cy="362" r="7.5"/>
+    <circle cx="566" cy="366" r="7.5"/><circle cx="776" cy="370" r="7.5"/>
+  </g>
+  <g>
+    <circle cx="108" cy="360" r="10" fill="url(#mu-muBokeh)" opacity="0.9"/>
+    <circle cx="108" cy="360" r="2.6" fill="#FFE9B0"/>
+    <circle cx="344" cy="354" r="10" fill="url(#mu-muBokeh)" opacity="0.9"/>
+    <circle cx="344" cy="354" r="2.6" fill="#FFE9B0"/>
+    <circle cx="566" cy="358" r="9" fill="url(#mu-muBokeh)" opacity="0.8"/>
+    <circle cx="566" cy="358" r="2.4" fill="#FFE9B0"/>
+    <circle cx="716" cy="348" r="9" fill="url(#mu-muBokeh)" opacity="0.8"/>
+    <circle cx="716" cy="348" r="2.4" fill="#FFE9B0"/>
+  </g>
+
+  <!-- 飘散的光点 -->
+  <g fill="#FFE9B0">
+    <circle cx="90" cy="286" r="2.6" opacity="0.55"/>
+    <circle cx="238" cy="250" r="2" opacity="0.4"/>
+    <circle cx="330" cy="300" r="2.2" opacity="0.35"/>
+    <circle cx="508" cy="286" r="2.4" opacity="0.45"/>
+    <circle cx="760" cy="300" r="2.6" opacity="0.4"/>
+    <circle cx="680" cy="330" r="2" opacity="0.35"/>
+  </g>
+
+  <rect y="230" width="800" height="220" fill="url(#mu-muScrim)"/>
+  <rect width="800" height="450" fill="url(#mu-muVignette)"/>
+</svg>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="ai-hxzAiTitle ai-hxzAiDesc">
+  <title id="ai-hxzAiTitle">活动封面：AI 创客马拉松</title>
+  <desc id="ai-hxzAiDesc">深蓝到青色的渐变夜空，左侧神经元网络与电路走线发光，右侧一枚火箭拖着青色尾迹斜向上飞升，底部暗色渐变用于叠加白色标题文字。</desc>
+  <defs>
+    <linearGradient id="ai-aiBg" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#061530"/>
+      <stop offset="0.45" stop-color="#0B2B5E"/>
+      <stop offset="1" stop-color="#0C5E6E"/>
+    </linearGradient>
+    <radialGradient id="ai-aiGlowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ai-aiGlowGold" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5B942" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#F5B942" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ai-aiNodeGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#67E8F9" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ai-aiScrim" x1="0" y1="200" x2="0" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#040E20" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#040E20" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#040E20" stop-opacity="0.86"/>
+    </linearGradient>
+    <radialGradient id="ai-aiVignette" cx="0.48" cy="0.42" r="0.62">
+      <stop offset="0.55" stop-color="#020814" stop-opacity="0"/>
+      <stop offset="1" stop-color="#020814" stop-opacity="0.4"/>
+    </radialGradient>
+    <linearGradient id="ai-aiRocketBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.6" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#B9D4F2"/>
+    </linearGradient>
+    <linearGradient id="ai-aiRocketNose" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A5F3FC"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="ai-aiFin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#0E7490"/>
+    </linearGradient>
+    <linearGradient id="ai-aiFlame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE9B0"/>
+      <stop offset="0.5" stop-color="#F5B942"/>
+      <stop offset="1" stop-color="#F97316" stop-opacity="0.15"/>
+    </linearGradient>
+    <pattern id="ai-aiGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#38BDF8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#ai-aiBg)"/>
+  <rect width="800" height="450" fill="url(#ai-aiGrid)"/>
+  <circle cx="650" cy="190" r="230" fill="url(#ai-aiGlowCyan)" opacity="0.75"/>
+  <circle cx="648" cy="196" r="96" fill="url(#ai-aiGlowGold)" opacity="0.4"/>
+
+  <!-- 星点 -->
+  <g fill="#E0F2FE">
+    <circle cx="82" cy="66" r="2" opacity="0.75"/>
+    <circle cx="196" cy="38" r="1.6" opacity="0.55"/>
+    <circle cx="330" cy="92" r="2.2" opacity="0.6"/>
+    <circle cx="452" cy="46" r="1.5" opacity="0.5"/>
+    <circle cx="548" cy="88" r="2" opacity="0.65"/>
+    <circle cx="726" cy="44" r="1.8" opacity="0.6"/>
+    <circle cx="770" cy="150" r="2.4" opacity="0.5"/>
+    <circle cx="96" cy="330" r="1.6" opacity="0.4"/>
+    <circle cx="404" cy="330" r="1.8" opacity="0.35"/>
+    <circle cx="700" cy="352" r="1.5" opacity="0.3"/>
+  </g>
+  <g fill="#F5B942" opacity="0.85">
+    <path d="M0 -7 C0.6 -2.1 2.1 -0.6 7 0 C2.1 0.6 0.6 2.1 0 7 C-0.6 2.1 -2.1 0.6 -7 0 C-2.1 -0.6 -0.6 -2.1 0 -7 Z" transform="translate(742 108) scale(1.1)"/>
+    <path d="M0 -5 C0.5 -1.5 1.5 -0.5 5 0 C1.5 0.5 0.5 1.5 0 5 C-0.5 1.5 -1.5 0.5 -5 0 C-1.5 -0.5 -0.5 -1.5 0 -5 Z" transform="translate(508 148) scale(0.9)"/>
+  </g>
+
+  <!-- 电路走线 -->
+  <g fill="none" stroke="#2DD4BF" stroke-opacity="0.32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 86 H74 L108 120 H196"/>
+    <path d="M60 0 V42 L92 74"/>
+    <path d="M0 176 H44 L70 202"/>
+    <path d="M800 60 H742 L706 96 H646"/>
+  </g>
+  <g fill="#67E8F9">
+    <circle cx="74" cy="86" r="3.2" opacity="0.8"/>
+    <circle cx="108" cy="120" r="3.2" opacity="0.8"/>
+    <circle cx="196" cy="120" r="2.6" opacity="0.55"/>
+    <circle cx="92" cy="74" r="2.6" opacity="0.55"/>
+    <circle cx="70" cy="202" r="2.6" opacity="0.4"/>
+    <circle cx="706" cy="96" r="2.6" opacity="0.5"/>
+  </g>
+
+  <!-- 神经元网络 -->
+  <g fill="none" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1.5">
+    <path d="M96 238 L150 196 L232 238 L284 186"/>
+    <path d="M96 238 L172 286 L232 238"/>
+    <path d="M172 286 L140 346"/>
+    <path d="M232 238 L300 296"/>
+    <path d="M284 186 L352 252"/>
+    <path d="M300 296 L352 252"/>
+    <path d="M232 238 L172 286"/>
+  </g>
+  <g>
+    <circle cx="96" cy="238" r="17" fill="url(#ai-aiNodeGlow)"/><circle cx="96" cy="238" r="5" fill="#A5F3FC"/>
+    <circle cx="150" cy="196" r="20" fill="url(#ai-aiNodeGlow)"/><circle cx="150" cy="196" r="6" fill="#A5F3FC"/>
+    <circle cx="172" cy="286" r="15" fill="url(#ai-aiNodeGlow)"/><circle cx="172" cy="286" r="4.5" fill="#67E8F9"/>
+    <circle cx="232" cy="238" r="20" fill="url(#ai-aiNodeGlow)"/><circle cx="232" cy="238" r="5.5" fill="#A5F3FC"/>
+    <circle cx="284" cy="186" r="16" fill="url(#ai-aiNodeGlow)"/><circle cx="284" cy="186" r="4.5" fill="#F5B942"/>
+    <circle cx="300" cy="296" r="16" fill="url(#ai-aiNodeGlow)"/><circle cx="300" cy="296" r="4.5" fill="#A5F3FC"/>
+    <circle cx="352" cy="252" r="14" fill="url(#ai-aiNodeGlow)"/><circle cx="352" cy="252" r="4" fill="#67E8F9"/>
+    <circle cx="140" cy="346" r="13" fill="url(#ai-aiNodeGlow)"/><circle cx="140" cy="346" r="3.5" fill="#A5F3FC"/>
+  </g>
+
+  <!-- 轨道环 -->
+  <g fill="none" stroke="#67E8F9">
+    <ellipse cx="646" cy="192" rx="140" ry="70" stroke-opacity="0.18" stroke-width="2" transform="rotate(-24 646 192)"/>
+    <ellipse cx="646" cy="192" rx="176" ry="88" stroke-opacity="0.1" stroke-width="2" transform="rotate(-24 646 192)"/>
+  </g>
+
+  <!-- 尾迹 -->
+  <path d="M556 300 C470 380 360 420 240 432" fill="none" stroke="#22D3EE" stroke-opacity="0.45" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 20"/>
+  <path d="M566 292 C486 360 392 402 288 424" fill="none" stroke="#A5F3FC" stroke-opacity="0.22" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- 火箭 -->
+  <g transform="translate(620 190) rotate(30)">
+    <path d="M-20 48 C-16 70 -9 92 0 112 C9 92 16 70 20 48 Z" fill="url(#ai-aiFlame)"/>
+    <path d="M-9 50 C-6 68 -3 82 0 94 C3 82 6 68 9 50 Z" fill="#FFF3C4" opacity="0.9"/>
+    <path d="M-24 6 C-42 16 -54 36 -58 62 L-24 48 Z" fill="url(#ai-aiFin)"/>
+    <path d="M24 6 C42 16 54 36 58 62 L24 48 Z" fill="url(#ai-aiFin)"/>
+    <path d="M0 -80 C26 -48 32 0 24 48 L-24 48 C-32 0 -26 -48 0 -80 Z" fill="url(#ai-aiRocketBody)"/>
+    <path d="M0 -80 C9 -68 16 -54 20 -38 L-20 -38 C-16 -54 -9 -68 0 -80 Z" fill="url(#ai-aiRocketNose)"/>
+    <path d="M-20 -36 L20 -36" fill="none" stroke="#F5B942" stroke-opacity="0.85" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-18 24 C-6 28 6 28 18 24" fill="none" stroke="#0F2A5C" stroke-opacity="0.16" stroke-width="2"/>
+    <circle cx="0" cy="-6" r="15" fill="#08213F"/>
+    <circle cx="0" cy="-6" r="15" fill="none" stroke="#67E8F9" stroke-width="4"/>
+    <circle cx="0" cy="-6" r="8" fill="#22D3EE" opacity="0.9"/>
+    <circle cx="-4" cy="-10" r="3.5" fill="#CFFAFE" opacity="0.9"/>
+  </g>
+
+  <rect y="210" width="800" height="240" fill="url(#ai-aiScrim)"/>
+  <rect width="800" height="450" fill="url(#ai-aiVignette)"/>
+</svg>

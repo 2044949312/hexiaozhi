@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>河小智 · 河南大学 AI 智慧校园（模拟测试版）</title>
+<meta name="description" content="河小智模拟测试版：无需接入任何 API，双击即可在浏览器中体验登录、智能问答、办事流程、校园活动、个人事务与成长档案。">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- 登录 / 注册 / 找回密码 -->
+<div id="auth-root" class="auth-page"></div>
+
+<!-- 登录后的站内应用 -->
+<div id="app-root" class="app" hidden>
+  <header id="topbar" class="topbar"></header>
+  <main id="view" class="view" tabindex="-1"></main>
+  <footer id="footer" class="footer"></footer>
+</div>
+
+<!-- 弹窗 / 提示 -->
+<div id="modal-root"></div>
+<div id="toast-root" class="toast-root" aria-live="polite" aria-atomic="true"></div>
+
+<noscript>
+  <div style="max-width:680px;margin:80px auto;padding:24px;background:#fff;border-radius:20px;font-family:sans-serif;">
+    河小智模拟版需要启用 JavaScript 才能运行，请在浏览器设置中开启后刷新页面。
+  </div>
+</noscript>
+
+<script src="assets/data.js"></script>
+<script src="assets/store.js"></script>
+<script src="assets/ui.js"></script>
+<script src="assets/pages.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
